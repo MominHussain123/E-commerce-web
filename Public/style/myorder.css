@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.myorder {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.order-tracking{
+    min-height: 50vh;
+}
+
+
+.order-tracking .container-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.order-tracking .container-box .order-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.order-tracking .container-box .box {
+    width: 300px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+
+    img {
+        width: 70%;
+    }
+}
+
+.order-tracking .container-box .box button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+
+    &:active {
+        background-color: #333;
+    }
+}
